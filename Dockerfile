@@ -11,7 +11,6 @@ RUN mvn dependency:go-offline
 COPY . .
 RUN mvn clean package -DskipTests
 
-
 # 2️⃣ Step 2: Runtime Stage (Java)
 FROM eclipse-temurin:17-jdk-alpine
 
