@@ -17,7 +17,7 @@ import com.employee.employee.details.Entity.Employee_Entity;
 import com.employee.employee.details.Repository.Employee_repository;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://employee-management-forntend-angula.vercel.app")
 @RequestMapping("/employees")
 public class Employee_controller {
 
